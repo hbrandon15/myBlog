@@ -186,6 +186,19 @@ body.light-theme {
 .btn:hover span{
 	color: var(--light-color);
 }
+
+.moon-icon{
+	display: none;
+}
+
+/* when the body already has the light theme class, we no longer want to see the sun icon */
+.light-theme .sun-icon{
+	display: none;
+}
+
+.light-theme .moon-icon{
+	display: block;
+}
 /* Header JavaScript Styles */
 
 /* Search */
